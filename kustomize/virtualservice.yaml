@@ -1,0 +1,15 @@
+apiVersion: networking.istio.io/v1alpha3
+kind: VirtualService
+metadata:
+  name: podinfo
+spec:
+  hosts:
+  - "podinfo.aks.mrlotfy.xyz"
+  gateways:
+  - podinfo-ext
+  http:
+    route:
+    - destination:
+        port:
+          number: 8000
+        host: podinfo
