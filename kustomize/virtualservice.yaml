@@ -8,8 +8,8 @@ spec:
   gateways:
   - podinfo-ext
   http:
-    route:
-    - destination:
-        port:
-          number: 9898
-        host: podinfo
+    - route:
+      - destination:
+          port:
+            number: 9898
+          host: podinfo
