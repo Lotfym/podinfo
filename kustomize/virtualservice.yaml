@@ -4,7 +4,7 @@ metadata:
   name: podinfo
 spec:
   hosts:
-  - "podinfo.aks.L0tfy.site"
+  - "podinfo.aks.mrlotfy.xyz"
   gateways:
   - podinfo-gateway-ext
   http:
