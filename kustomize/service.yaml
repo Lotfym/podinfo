@@ -6,13 +6,13 @@ metadata:
     app: podinfo
 spec:
   ports:
-    - name: http
-      port: 9898
-      protocol: TCP
-      targetPort: http
-    - name: grpc
-      port: 9999
-      targetPort: grpc
-      protocol: TCP
-    selector:
-      app: podinfo
+  - name: http
+    port: 9898
+    protocol: TCP
+    targetPort: http
+  - name: grpc
+    port: 9999
+    targetPort: grpc
+    protocol: TCP
+  selector:
+    app: podinfo
