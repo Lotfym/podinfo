@@ -6,7 +6,7 @@ spec:
   hosts:
   - "podinfonew.aks.mrlotfy.xyz"
   gateways:
-  - podinfo-gateway-ext
+  - podinfonew-gateway-ext
   http:
     - route:
       - destination:
